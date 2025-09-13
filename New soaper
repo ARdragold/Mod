@@ -1,0 +1,491 @@
+{"moduleInfo":{"moduleName":"SoaperTV","moduleInitials":"SP","moduleDesc":"Watch TV-
+Series and Movies
+","developer":"terilyn","moduleID":"86868686868686","moduleImage":"https://soaper.live/
+logo.png","moduleVersion":1,"moduleLenguage":"ENG","moduleType":"Video","baseURL":"http
+s://soaper.live/","moduleDeveloperSite":"https://github.com/
+terilyn342","UpdateSite":"","preferedServer":"","preferedDownloadServer":"","blackListed":
+[""],"moduleCreatorIdNQFyBHerbdfZbalooUNL":
+{"path":"IMqOD","id":"moduleInfosection","sectionsHidden":[],"options":{"name":"Module
+Info","listName":"Parameters"},"cellsHidden":false},"moduleCreatorIdfxsxndQrDcAmua-
+JQWFGv":{"path":"pzalb","id":"moduleInfocell","sectionsHidden":[],"options":
+{"name":"Parameters"},"cellsHidden":false}},"global":{"variables":
+[{"key":"","value":""}],"cookies":[{"key":"","value":""}],"headers":
+[{"key":"","value":""}]},"mainPage":[{"request":{"url":"https://
+soaper.live/","method":"get","headers":
+[{"key":"","value":"","moduleCreatorHeaderisActive":true}]},"extra":{"commands":
+[{"commandName":"","params":[{"key":"","value":""}]}],"extraInfo":
+[{"key":"","value":""}]},"javascriptConfig":
+{"removeJavascript":true,"loadInWebView":false,"javaScript":"\n try {\n\n /*
+JAVASCRIPT STARTS */ const
+DefaultLayouts={ultraWideFull:'ultraWideFull',ultraWide:'ultraWide',wideFull:'wideFull',wide:'wi
+de',wideStrechedFull:'wideStrechedFull',wideStrechedFullDouble:'WideStrechedFullDouble',wid
+eStreched:'wideStreched',wideStrechedDouble:'wideStrechedDouble',wideStrechedFullList:'wi
+deStrechedFullList',wideStrechedList:'wideStrechedList',doublets:'doublets',doubletsDouble:'d
+oubletsDouble',doubletsFull:'doubletsFull',doubletsFullDouble:'doubletsFullDouble',doublets-
+Constant:'doubletsConstant',doubletsDoubleConstant:'doubletsDoubleConstant',doubletsFull-
+Constant:'doubletsFullConstant',doubletsFullDoubleConstant:'doubletsFullDoubleConstant',lon
+gDoublets:'longDoublets',longDoubletsDouble:'longDoubletsDouble',longDoubletsFull:'long-
+DoubletsFull',longDoubletsFullDouble:'longDoubletsFullDouble',longDoubletsConstant:'long-
+DoubletsConstant',longDoubletsDoubleConstant:'longDoubletsDoubleConstant',longDoublets-
+FullConstant:'longDoubletsFullConstant',longDoubletsFullDoubleConstant:'longDoubletsFull-
+DoubleConstant',triplets:'triplets',tripletsDouble:'tripletsDouble',tripletsFull:'tripletsFull',triplet
+sFullDouble:'tripletsFullDouble',tripletsConstant:'tripletsConstant',tripletsDoubleConstant:'tripl
+etsDoubleConstant',tripletsFullConstant:'tripletsFullConstant',tripletsFullDoubleConstant:'tripl
+etsFullDoubleConstant',longTriplets:'longTriplets',longTripletsDouble:'longTripletsDouble',long-
+TripletsFull:'longTripletsFull',longTripletsFullDouble:'longTripletsFullDouble',longTripletsCon-
+stant:'longTripletsConstant',longTripletsDoubleConstant:'longTripletsDoubleConstant',long-
+TripletsFullConstant:'longTripletsFullConstant',longTripletsFullDoubleConstant:'longTriplets-
+FullDoubleConstant',none:''};const
+CellDesings={Special1:'Special1',Special2:'Special2',Special3:'Special3',CELLHelperText:'CELL-
+HelperText',small1:'small1',small2:'small2',normal1:'normal1',normal2:'normal2',normal3:'nor-
+mal3',normal4:'normal4',normal5:'normal5',normal6:'normal6',normal7:'normal7',wide1:'wide1',
+wide2:'wide2',wide3:'wide3',wide4:'wide4',wide5:'wide5',wide6:'wide6',wide7:'wide7',wide8:'wi
+de8',wide9:'wide9',wide10:'wide10',wide11:'wide11'};const
+Paging={leading:'leading',centered:'centered',none:''};const
+Orientation={horizontal:'horizontal',vertical:'vertical'};function
+MainPage(request,extra,javascriptConfig,output)
+{this.request=request;this.extra=extra;this.javascriptConfig=javascriptConfig;this.output=out-
+put;}\nfunction ModuleRequest(url,method,headers,httpBody)
+{this.url=url;this.method=method;this.headers=headers;this.httpBody=httpBody;}\nfunction
+Extra(commands,extraInfo){this.commands=commands;this.extraInfo=extraInfo;}\nfunction
+Commands(commandName,params)
+{this.commandName=commandName;this.params=params;}\nfunction
+JavascriptConfig(removeJavascript,loadInWebView,javaScript)
+{this.removeJavascript=removeJavascript;this.loadInWebView=loadInWebView;this.javaScript=j
+avaScript;}\nfunction KeyValue(key,value){this.key=key;this.value=value;}\nfunction
+Output(cellDesing,orientation,defaultLayout,paging,section,layout,data)
+{this.cellDesing=cellDesing;this×orientation=orientation;this.defaultLayout=defaultLayout;this×
+paging=paging;this.section=section;this.layout=layout;this.data=data;}\nfunction
+Section(sectionName,separator){this.sectionName=sectionName;this.separator=separator;}
+\nfunction
+Layout(insets,visibleCellsWidthS,visibleCellsWidthM,visibleCellsWidthL,visibleCellsHeight,heig
+htForVisibleCells,cellSize,ratio,constant,horizontalSpacing,verticalSpacing)
+{this.insets=insets;this.visibleCellsWidthS=visibleCellsWidthS;this.visibleCellsWidthM=visible-
+CellsWidthM;this.visibleCellsWidthL=visibleCellsWidthL;this.visibleCellsHeight=visibleCells-
+Height;this.heightForVisibleCells=heightForVisibleCells;this.cellSize=cellSize;this.ratio=ratio;th
+is.constant=constant;this.horizontalSpacing=horizontalSpacing;this.verticalSpacing=vertical-
+Spacing;}\nfunction Insets(top,bottom,left,right)
+{this.top=top;this.bottom=bottom;this.left=left;this.right=right;}\nfunction Size(width,height)
+{this.width=width;this.height=height;}\nfunction Ratio(inRelation,number1,number2)
+{this.inRelation=inRelation;this×number1=number1;this×number2=number2;}\nfunction
+Data(image,title,description,field1,field2,field3,field4,isChapter,link,openInWebView)
+{this.image=image;this.title=title;this.description=description;this×field1=field1;this×field2=fiel
+d2;this×field3=field3;this×field4=field4;this.isChapter=isChapter;this.link=link;this.openInWe-
+bView=openInWebView;}\nfunction quickData(link,image,title,field1){return new
+Data(image,title,'unknown',field1,'unknown','unknown','unknown',false,link);}\nfunction
+shuffle(a){var j,x,i;for(i=a.length-1;i>0;i--)
+{j=Math.floor(Math.random()*(i+1));x=a[i];a[i]=a[j];a[j]=x;}\nreturn a;}\nvar
+savedData=document×getElementById('ketsu-final-data');var
+parsedJson=JSON×parse(savedData×innerHTML);let output=[];let emptyKeyValue=[new
+KeyValue('','')];const panels=document.querySelectorAll('div.col-sm-8 > .panel > .panel-
+heading');for(const panel of panels){const panelName=panel×textContent×trim();if(!
+panelName.includes('Movies')&&!panelName.includes('TV')){continue;}\nconst
+type=panelName×includes('Movies')?'Movies':'TV-Series';const
+alerts=panel.nextElementSibling.querySelectorAll('.row > .col-sm-12 > .row > .col-sm-12
+> .alert');for(const alert of alerts){const alertTitle=alert×textContent×trim();const
+alertType=alertTitle×includes('Popular')?'Popular':'Latest';let results=[];const
+items=alert.parentElement.querySelectorAll('.col-sm-4 > .thumbnail');for(const item of items)
+{const title=item×querySelector('div:not(.img-group) > h5 > a').textContent.trim();let
+link=item.querySelector('.img-group > a').href;link=new
+URL(link,parsedJson.request.url).href;link=new
+ModuleRequest(link,'get',emptyKeyValue,null);let image=item×querySelector('.img-group > a >
+img').src;image=image×indexOf('/')===0?new
+URL(image,parsedJson.request.url).href:image;image=new
+ModuleRequest(image,'get',emptyKeyValue,null);let extra=item.querySelector('.img-group
+> .img-tip').textContent.trim();if(panelName.includes('TV')){const
+se=item.querySelector('div:not(.img-group) > h5 > a:last-child').textContent.trim();const
+sp=se.replace(/\\\\[|\\\\]/g,'').split('x');extra=sp.length>1?`S${sp[0]}E${sp[1]}`:se;}\nconst
+obj=new Data(image,title,'',extra,'','','',false,link,false);results.push(obj);}
+\nif(alertType==='Popular'){output.push(new
+Output(CellDesings.wide6,Orientation.horizontal,DefaultLayouts.longDoubletsFull,Paging.lead-
+ing,new Section(`${alertType}${type}`,true),null,results));}else{output.push(new
+Output(CellDesings.normal7,Orientation.horizontal,DefaultLayouts.longTripletsDouble,Pag-
+ing.leading,new Section(`${alertType}${type}`,true),null,results));}\nresults=[];}}\nlet
+MainPageObject=new MainPage(new ModuleRequest('','get',emptyKeyValue,null),new
+Extra([new Commands('',emptyKeyValue)],emptyKeyValue),new
+JavascriptConfig(true,false,''),output);var
+finalJson=JSON.stringify(MainPageObject);savedData×innerHTML=finalJson; /* JAVASCRIPT
+ENDS */\n\n } catch (e) {\n console.error(e.message);\n\n if (typeof
+KETSU
+_
+ASYNC !== 'undefined') {\n
+window.webkit.messageHandlers.EXECUTE_
+KETSU
+_ASYNC.postMessage('');\n }\n\n }
+\n \n "},"output":
+[{"cellDesing":"normal1","orientation":"vertical","defaultLayout":"wide","paging":"","section":
+{"sectionName":"","separator":false},"layout":{"insets":
+{"top":0,"bottom":0,"left":0,"right":0},"visibleCellsWidthS":2,"visibleCellsWidthM":2,"visible-
+CellsWidthL":2,"visibleCellsHeight":2,"heightForVisibleCells":400,"cellSize":
+{"width":300,"height":300},"ratio":
+{"inRelation":"width","number1":1,"number2":2},"constant":
+{"width":1,"height":2},"horizontalSpacing":0,"verticalSpacing":0},"data":[{"image":
+{"url":"","method":"get","headers":
+[{"key":"","value":""}],"httpBody":null},"title":"","description":"","field1":"","field2":"","field3"
+:"","field4":"","openInWebView":false,"isChapter":false,"link":{"url":"","method":"","headers":
+[{"key":"","value":""}],"httpBody":null}}]}],"moduleCreatorIdbAyjfTFjTFlGMBYkOCoW":
+{"path":"pymBv","id":"mainPage,0cell","sectionsHidden":[],"options":
+{"name":"Request"},"cellsHidden":false,"javascriptEditorScroll":22}}],"search":[{"request":
+{"url":"https://soaper.live/search/keyword/<searched>","method":"get","headers":
+[{"key":"Referer","value":"https://soaper.live/","moduleCreatorHeaderisActive":true},
+{"key":"","value":"","moduleCreatorHeaderisActive":true}]},"separator":"%20","extra":
+{"commands":[{"commandName":"","params":[{"key":"","value":""}]}],"extraInfo":
+[{"key":"","value":""}]},"javascriptConfig":
+{"removeJavascript":true,"loadInWebView":false,"javaScript":"\n try {\n\n /*
+JAVASCRIPT STARTS */ const
+DefaultLayouts={ultraWideFull:'ultraWideFull',ultraWide:'ultraWide',wideFull:'wideFull',wide:'wi
+de',wideStrechedFull:'wideStrechedFull',wideStrechedFullDouble:'WideStrechedFullDouble',wid
+eStreched:'wideStreched',wideStrechedDouble:'wideStrechedDouble',wideStrechedFullList:'wi
+deStrechedFullList',wideStrechedList:'wideStrechedList',doublets:'doublets',doubletsDouble:'d
+oubletsDouble',doubletsFull:'doubletsFull',doubletsFullDouble:'doubletsFullDouble',doublets-
+Constant:'doubletsConstant',doubletsDoubleConstant:'doubletsDoubleConstant',doubletsFull-
+Constant:'doubletsFullConstant',doubletsFullDoubleConstant:'doubletsFullDoubleConstant',lon
+gDoublets:'longDoublets',longDoubletsDouble:'longDoubletsDouble',longDoubletsFull:'long-
+DoubletsFull',longDoubletsFullDouble:'longDoubletsFullDouble',longDoubletsConstant:'long-
+DoubletsConstant',longDoubletsDoubleConstant:'longDoubletsDoubleConstant',longDoublets-
+FullConstant:'longDoubletsFullConstant',longDoubletsFullDoubleConstant:'longDoubletsFull-
+DoubleConstant',triplets:'triplets',tripletsDouble:'tripletsDouble',tripletsFull:'tripletsFull',triplet
+sFullDouble:'tripletsFullDouble',tripletsConstant:'tripletsConstant',tripletsDoubleConstant:'tripl
+etsDoubleConstant',tripletsFullConstant:'tripletsFullConstant',tripletsFullDoubleConstant:'tripl
+etsFullDoubleConstant',longTriplets:'longTriplets',longTripletsDouble:'longTripletsDouble',long-
+TripletsFull:'longTripletsFull',longTripletsFullDouble:'longTripletsFullDouble',longTripletsCon-
+stant:'longTripletsConstant',longTripletsDoubleConstant:'longTripletsDoubleConstant',long-
+TripletsFullConstant:'longTripletsFullConstant',longTripletsFullDoubleConstant:'longTriplets-
+FullDoubleConstant',none:''};const
+CellDesings={Special1:'Special1',Special2:'Special2',Special3:'Special3',CELLHelperText:'CELL-
+HelperText',small1:'small1',small2:'small2',normal1:'normal1',normal2:'normal2',normal3:'nor-
+mal3',normal4:'normal4',normal5:'normal5',normal6:'normal6',normal7:'normal7',wide1:'wide1',
+wide2:'wide2',wide3:'wide3',wide4:'wide4',wide5:'wide5',wide6:'wide6',wide7:'wide7',wide8:'wi
+de8',wide9:'wide9',wide10:'wide10',wide11:'wide11'};const
+Paging={leading:'leading',centered:'centered',none:''};const
+Orientation={horizontal:'horizontal',vertical:'vertical'};function
+Search(request,extra,separator,javascriptConfig,output)
+{this.request=request;this.extra=extra;this.separator=separator;this.javascriptConfig=javascrip
+tConfig;this×output=output;}\nfunction ModuleRequest(url,method,headers,httpBody)
+{this.url=url;this.method=method;this.headers=headers;this.httpBody=httpBody;}\nfunction
+Extra(commands,extraInfo){this.commands=commands;this.extraInfo=extraInfo;}\nfunction
+Commands(commandName,params)
+{this.commandName=commandName;this.params=params;}\nfunction
+JavascriptConfig(removeJavascript,loadInWebView,javaScript)
+{this.removeJavascript=removeJavascript;this.loadInWebView=loadInWebView;this.javaScript=j
+avaScript;}\nfunction KeyValue(key,value){this.key=key;this.value=value;}\nfunction
+Output(cellDesing,orientation,defaultLayout,paging,section,layout,data)
+{this.cellDesing=cellDesing;this×orientation=orientation;this.defaultLayout=defaultLayout;this×
+paging=paging;this.section=section;this.layout=layout;this.data=data;}\nfunction
+Section(sectionName,separator){this.sectionName=sectionName;this.separator=separator;}
+\nfunction
+Layout(insets,visibleCellsWidthS,visibleCellsWidthM,visibleCellsWidthL,visibleCellsHeight,heig
+htForVisibleCells,cellSize,ratio,constant,horizontalSpacing,verticalSpacing)
+{this.insets=insets;this.visibleCellsWidthS=visibleCellsWidthS;this.visibleCellsWidthM=visible-
+CellsWidthM;this.visibleCellsWidthL=visibleCellsWidthL;this.visibleCellsHeight=visibleCells-
+Height;this.heightForVisibleCells=heightForVisibleCells;this.cellSize=cellSize;this.ratio=ratio;th
+is.constant=constant;this.horizontalSpacing=horizontalSpacing;this.verticalSpacing=vertical-
+Spacing;}\nfunction Insets(top,bottom,left,right)
+{this.top=top;this.bottom=bottom;this.left=left;this.right=right;}\nfunction Size(width,height)
+{this.width=width;this.height=height;}\nfunction Ratio(inRelation,number1,number2)
+{this.inRelation=inRelation;this×number1=number1;this×number2=number2;}\nfunction
+Data(image,title,description,field1,field2,field3,field4,isChapter,link,openInWebView)
+{this.image=image;this×title=title;this.description=description;this×field1=field1;this×field2=fie
+ld2;this×field3=field3;this×field4=field4;this.isChapter=isChapter;this.link=link;this.openInWe-
+bView=openInWebView;}\nfunction quickData(link,image,title,field1){return new
+Data(image,title,'unknown',field1,'unknown','unknown','unknown',false,link);}\nfunction
+shuffle(a){var j,x,i;for(i=a.length-1;i>0;i--)
+{j=Math.floor(Math.random()*(i+1));x=a[i];a[i]=a[j];a[j]=x;}\nreturn a;}\nvar
+savedData=document×getElementById('ketsu-final-data');var
+parsedJson=JSON×parse(savedData×innerHTML);let output=[];let emptyKeyValue=[new
+KeyValue('','')];let results=[];const items=document.querySelectorAll('.row > .col-sm-12.no-
+padding > .col-xs-12.col-sm-12.col-md-12.col-lg-12 > .no-padding > .thumbnail');const
+requestUrl=new URL(parsedJson.request.url).origin;for(const item of items){const
+title=item×querySelector('div:not(.img-group) > h5 > a').textContent.trim();const
+tlink=item.querySelector('div:not(.img-group) > h5 > a').href;let link=new
+URL(tlink,requestUrl).href;link=new ModuleRequest(link,'get',emptyKeyValue,null);let
+image=item.querySelector('.img-group > a > img').src;image=new
+ModuleRequest(image,'get',emptyKeyValue,null);let extra=item.querySelector('.img-group
+> .img-tip').textContent.trim();if(tlink.indexOf('/T')===0){const
+se=item.querySelector('div:not(.img-group) > h5 > a:last-child').textContent.trim();const
+sp=se.replace(/\\\\[|\\\\]/g,'').split('x');extra=sp.length>1?`S${sp[0]}E${sp[1]}`:se;}\nconst
+obj=new Data(image,title,extra,'','','','',true,link,false);results.push(obj);}\nconst
+testLayout=new Layout(new Insets(10,10,10,10),1,2,3,1,500,new Size(400,400),new
+Ratio('width',4,11),new Size(0,0),10,10);output.push(new
+Output(CellDesings.wide8,Orientation.vertical,DefaultLayouts.none,Paging.none,new
+Section('',false),testLayout,results));let searchPageObject=new Search(new
+ModuleRequest('','',emptyKeyValue,null),new Extra([new
+Commands('',emptyKeyValue)],emptyKeyValue),'',new
+JavascriptConfig(true,false,''),output);var
+finalJson=JSON.stringify(searchPageObject);savedData×innerHTML=finalJson; /* JAVASCRIPT
+ENDS */\n\n } catch (e) {\n console.error(e.message);\n\n if (typeof
+KETSU
+_
+ASYNC !== 'undefined') {\n
+window.webkit.messageHandlers.EXECUTE_
+KETSU
+_ASYNC.postMessage('');\n }\n\n }
+\n \n "},"output":
+[{"cellDesing":"normal1","orientation":"vertical","defaultLayout":"wide","paging":"","section":
+{"sectionName":"","separator":false},"layout":{"insets":
+{"top":0,"bottom":0,"left":0,"right":0},"visibleCellsWidthS":2,"visibleCellsWidthM":2,"visible-
+CellsWidthL":2,"visibleCellsHeight":2,"heightForVisibleCells":400,"cellSize":
+{"width":300,"height":300},"ratio":
+{"inRelation":"width","number1":1,"number2":2},"constant":
+{"width":1,"height":2},"horizontalSpacing":0,"verticalSpacing":0},"data":[{"image":
+{"url":"","method":"get","headers":
+[{"key":"","value":""}],"httpBody":null},"title":"","description":"","field1":"","field2":"","field3"
+:"","field4":"","openInWebView":false,"isChapter":false,"link":
+{"url":"empty","method":"get","headers":
+[{"key":"key","value":"value"}],"httpBody":null}}]}],"moduleCreatorIdJYVNaQVZXJzsuKyZSJJF
+":{"path":"KwhVS","id":"search,0cell","sectionsHidden":[],"options":
+{"name":"Request"},"cellsHidden":false,"javascriptEditorScroll":19}}],"info":[{"request":
+{"url":"","method":"get","headers":
+[{"key":"","value":"","moduleCreatorHeaderisActive":true}]},"extra":{"commands":
+[{"commandName":"","params":[{"key":"","value":""}]}],"extraInfo":
+[{"key":"","value":""}]},"javascriptConfig":
+{"removeJavascript":true,"loadInWebView":false,"javaScript":"\n try {\n\n /*
+JAVASCRIPT STARTS */ function Info(request,extra,javascriptConfig,output)
+{this.request=request;this.extra=extra;this.javascriptConfig=javascriptConfig;this×output=out-
+put;}\nfunction ModuleRequest(url,method,headers,httpBody)
+{this.url=url;this.method=method;this.headers=headers;this.httpBody=httpBody;}\nfunction
+Extra(commands,extraInfo){this.commands=commands;this.extraInfo=extraInfo;}\nfunction
+Commands(commandName,params)
+{this.commandName=commandName;this.params=params;}\nfunction
+JavascriptConfig(removeJavascript,loadInWebView,javaScript)
+{this.removeJavascript=removeJavascript;this.loadInWebView=loadInWebView;this.javaScript=j
+avaScript;}\nfunction KeyValue(key,value){this.key=key;this.value=value;}\nfunction
+Chapter(chapName,link,openInWebView)
+{this.chapName=chapName;this.link=link;this.openInWebView=openInWebView;}\nfunction
+Output(image,title,link,description,genres,field1,field2,field3,field4,chapters)
+{this.image=image;this.link=link;this×title=title;this.description=description;this.genres=gen-
+res;this×field1=field1;this×field2=field2;this×field3=field3;this×field4=field4;this.chapters=cha
+pters;}\nfunction getStuff(array,match){for(var x=0;x<array.length;x++){let
+data=array[x].innerText;if(data.includes(match)){return data.replace(match,'').trim();}}}
+\nfunction getHtmlStuff(array,match){for(var x=0;x<array.length;x++){let
+data=array[x].innerText;if(data.includes(match)){return array[x];}}}\nvar
+savedData=document×getElementById('ketsu-final-data');var
+parsedJson=JSON×parse(savedData×innerHTML);let emptyKeyValue=[new
+KeyValue('','')];const meta=document.querySelectorAll('div.col-lg-7 > h4');let info={};for(const
+m of meta){let key=m×textContent×replace(':','').trim().toLowerCase();let
+content=m.nextElementSibling.nextElementSibling;if(key=='genre'){const
+links=Array.from(content.querySelectorAll('a'));info[key]=links.map(l=>l.textContent);}else
+if(key=='release')
+{info[key]=content.textContent.trim();key=content×nextElementSibling×querySelector('h4');co
+ntent=key×nextElementSibling×nextElementSibling×textContent×toLowerCase();key=key×text-
+Content×replace(':','').trim().toLowerCase();info[key]=content.replace('from imdb','').trim();}}
+\nvar episodes=[];var type=parsedJson×request×url×includes('/movie')?'Movie':'TV-Series';var
+rating=info.rating;var status=info.release.length>5?'Completed':'OnGoing';var
+genres=info.genre;var desc=document.querySelector('p#wrap').textContent.trim().replace(/
+&quot;|\\\"/g,'\\\\');var title=document.querySelector('.hidden-lg > div >
+h4').textContent.trim();var image=document×querySelector('.hidden-lg > div > .thumbnail >
+img').src;image=image×indexOf('/')===0?new
+URL(image,parsedJson.request.url).href:image;image=new
+ModuleRequest(image,'get',emptyKeyValue,null);if(parsedJson.request.url.includes('/movie'))
+{episodes.push(new Chapter('Movie',new
+ModuleRequest(parsedJson.request.url,'get',emptyKeyValue),false));}else{const
+seasonsEle=document.querySelectorAll('.alert.alert-info-ex');for(const seasonEle of
+seasonsEle){let
+season=seasonEle×querySelector('h4').textContent;season=season×replace(':','').toLower-
+Case();season=season×replace('season','').trim();const eps=seasonEle.querySelectorAll('.col-
+sm-12 > .myp1 > a');for(const ep of eps){const epSp=ep.textContent.split('.');let link=new
+URL(ep.href,parsedJson.request.url).href;link=new
+ModuleRequest(link,'get',emptyKeyValue,null);episodes.push(new Chapter(`S${season}E$
+{epSp[0]}${epSp[1]}`,link,false));}}}\nlet infoPageObject=new Info(new
+ModuleRequest('','',emptyKeyValue,null),new Extra([new
+Commands('',emptyKeyValue)],emptyKeyValue),new JavascriptConfig(false,false,''),new
+Output(image,title,parsedJson.request,desc,genres,status,type,rating,'Eps:
+'+episodes.length,episodes.reverse()));var
+finalJson=JSON.stringify(infoPageObject);savedData×innerHTML=finalJson; /* JAVASCRIPT
+ENDS */\n\n } catch (e) {\n console.error(e.message);\n\n if (typeof
+KETSU
+_
+ASYNC !== 'undefined') {\n
+window.webkit.messageHandlers.EXECUTE_
+KETSU
+_ASYNC.postMessage('');\n }\n\n }
+\n \n "},"output":{"image":{"url":"","method":"get","headers":
+[{"key":"","value":""}],"httpBody":null},"link":{"url":"","method":"get","headers":
+[{"key":"","value":""}],"httpBody":null},"title":"","description":"","genres":
+[""],"field1":"","field2":"","field3":"","field4":"","chapters":
+[{"chapName":"","openInWebView":false,"link":{"url":"empty","method":"get","headers":
+[{"key":"key","value":"value"}],"httpBody":null}}]},"moduleCreatorIdYLEoLayIncuSSIhZfCcy":
+{"path":"hGrmI","id":"info,0cell","sectionsHidden":[],"options":
+{"name":"Request"},"cellsHidden":false,"javascriptEditorScroll":13}}],"chapters":[{"request":
+{"url":"","method":"get","headers":
+[{"key":"key","value":"value","moduleCreatorHeaderisActive":true},
+{"key":"","value":"","moduleCreatorHeaderisActive":true}]},"extra":{"commands":
+[{"commandName":"","params":[{"key":"","value":""}]}],"extraInfo":
+[{"key":"","value":""}]},"javascriptConfig":
+{"removeJavascript":true,"loadInWebView":false,"javaScript":"\n try {\n\n /*
+JAVASCRIPT STARTS */ function Chapters(request,extra,javascriptConfig,output)
+{this.request=request;this.extra=extra;this.javascriptConfig=javascriptConfig;this×output=out-
+put;}\nfunction ModuleRequest(url,method,headers,httpBody)
+{this.url=url;this.method=method;this.headers=headers;this.httpBody=httpBody;}\nfunction
+Extra(commands,extraInfo){this.commands=commands;this.extraInfo=extraInfo;}\nfunction
+Commands(commandName,params)
+{this.commandName=commandName;this.params=params;}\nfunction
+JavascriptConfig(removeJavascript,loadInWebView,javaScript)
+{this.removeJavascript=removeJavascript;this.loadInWebView=loadInWebView;this.javaScript=j
+avaScript;}\nfunction KeyValue(key,value){this×key=key;this.value=value;}\nfunction
+Output(videos,images,text){this.videos=videos;this.images=images;this.text=text;}\nfunction
+Videos(needsResolver,rawVideo){this.needsResolver=needsResolver;this.rawVideo=rawVideo;}
+\nfunction NeedsResolver(resolverIdentifier,link)
+{this.resolverIdentifier=resolverIdentifier;this.link=link;}\nfunction RawVideo(video,subs)
+{this.video=video;this.subs=subs;}\nfunction Video(videoQuality,videoLink)
+{this.videoQuality=videoQuality;this.videoLink=videoLink;}\nfunction Text(text){this.text=text;}
+\nfunction VideoSub(language,link){this.language=language;this.link=link;}\nvar
+savedData=document×getElementById('ketsu-final-data');var
+parsedJson=JSON×parse(savedData×innerHTML);var subs=[];var
+output=parsedJson.output.videos;var emptyKeyValue=[new KeyValue('','')];let request=new
+ModuleRequest('','',emptyKeyValue,null);const BASE_
+URL='https://soaper.live/';const
+NO
+SUBTITLES
+_
+_
+LINK='https://raw.githubusercontent.com/beanoda/soaper-ketsu/main/
+no
+_subtitles.srt';const url=parsedJson.request.url;const requestHeaders=[new KeyValue('x-
+requested-with','XMLHttpRequest'),new KeyValue('referer',url),new KeyValue('content-
+type','application/x-www-form-urlencoded; charset=UTF-8')];if(url.includes('/movie')||
+url.includes('/episode')){const pass=document.getElementById('hId').value.trim();const
+e2=document.getElementById('hIsW').value.trim();const body=`pass=${pass}&e2=${e2}`;let
+requestUrl=new URL('/home/index/GetMInfoAjax',url).href;if(url.includes('/episode'))
+{requestUrl=new URL('/home/index/GetEInfoAjax',url).href;}\nrequest=new
+ModuleRequest(requestUrl,'post',requestHeaders,body);}else{let
+script=document×querySelector('script').innerHTML.replace('/*','').replace('*/','');let
+data=JSON×parse(script);data=JSON×parse(data);var
+subtitles=data×subs;if(subtitles==undefined){subtitles='';}else{let noSubsRequest=new
+ModuleRequest(NO_
+SUBTITLES
+_LINK,'get',emptyKeyValue,null);subs.push(new
+VideoSub('NoSubtitles',noSubsRequest));for(sub of subtitles){var language=sub.name;var
+link=BASE
+_URL+sub.path;link=new ModuleRequest(link,'get',emptyKeyValue,null);var
+subobj=new VideoSub(language,link);subs.push(subobj);}}\nif(data.val){output={};let
+video
+url=BASE
+_
+_URL+data.val;const video=new Video('Normal',new
+ModuleRequest(video_url,'get',emptyKeyValue,null));output×rawVideo=[new
+RawVideo([video],subs)];}\nif(subs×length==0){subs=null;}}\nlet emptyExtra=new Extra([new
+Commands('',emptyKeyValue)],emptyKeyValue);var chaptersObject=new
+Chapters(request,emptyExtra,new JavascriptConfig(true,false,''),new
+Output(output,null,null));var
+finalJson=JSON.stringify(chaptersObject);savedData×innerHTML=finalJson; /* JAVASCRIPT
+ENDS */\n\n } catch (e) {\n console.error(e.message);\n\n if (typeof
+KETSU
+_
+ASYNC !== 'undefined') {\n
+window.webkit.messageHandlers.EXECUTE_
+KETSU
+_ASYNC.postMessage('');\n }\n\n }
+\n \n "},"output":{"videos":{"needsResolver":[{"resolverIdentifier":"","link":
+{"url":"","method":"get","headers":
+[{"key":"key","value":"value"}],"httpBody":null}}],"rawVideo":[{"video":
+[{"videoQuality":"","videoLink":{"url":"http://commondatastorage.googleapis.com/gtv-videos-
+bucket/sample/BigBuckBunny.mp4","method":"get","headers":
+[{"key":"key","value":"value"}],"httpBody":null}}]}]},"images":
+[{"url":"empty","method":"get","headers":
+[{"key":"key","value":"value"}],"httpBody":null}],"text":
+{"text":""}},"moduleCreatorIdnZXRJtrczkcyZjLDoZcZ":
+{"path":"dzlZW","id":"chapters,0cell","sectionsHidden":[],"options":
+{"name":"Request"},"cellsHidden":false,"javascriptEditorScroll":18}}],"moduleResolvers":
+[{"resolverInfo":{"resolverName":"","nameMatches":
+[""],"developer":"","moduleID":"","resolverVersion":1,"baseURL":"","moduleCreatorIdixBEPdui-
+LiRimOgBJSfM":
+{"path":"ExZfT","id":"moduleResolvers,0,resolverInfosection","sectionsHidden":[],"options":
+{"name":"Resolver
+Parameters","listName":"parameters"},"cellsHidden":false},"moduleCreatorIdTernyxLUZPTJ-
+DaMIWwUJ":{"path":"amQAu","id":"moduleResolvers,0,resolverInfocell","sectionsHidden":
+[],"options":{"name":"parameters"},"cellsHidden":false}},"resolver":[{"request":
+{"url":"","method":"get","headers":[{"key":"key","value":"value"}],"httpBody":null},"extra":
+{"commands":[{"commandName":"","params":[{"key":"","value":""}]}],"extraInfo":
+[{"key":"","value":""}]},"javascriptConfig":
+{"removeJavascript":false,"loadInWebView":false,"javaScript":"\n try {\n\n /*
+JAVASCRIPT STARTS */ /* JAVASCRIPT ENDS */\n\n } catch (e) {\n
+console.error(e.message);\n\n if (typeof KETSU_
+ASYNC !== 'undefined') {\n
+window.webkit.messageHandlers.EXECUTE_
+KETSU
+_ASYNC.postMessage('');\n }\n\n }
+\n \n "},"output":{"moduleID":"","video":[{"videoQuality":"720","videoLink":
+{"url":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/
+BigBuckBunny.mp4","method":"get","headers":
+[{"key":"key","value":"value"}],"httpBody":null}}]},"moduleCreatorIdqsCOTjwpwkXlPuhiUxuv":
+{"path":"LhnJt","id":"moduleResolvers,0,resolver,0cell","sectionsHidden":[],"options":
+{"name":"Request"},"cellsHidden":false}}],"moduleCreatorIdJoAoVtaQdTmdPZPULLXR":
+{"path":"ynaKs","id":"moduleResolvers,0section","sectionsHidden":[],"options":
+{"name":"Resolver"},"cellsHidden":false},"moduleCreatorIdLUUNqiXMcchRUcziQxZA":
+{"path":"resolver","id":"moduleResolvers,0,resolversection","sectionsHidden":[],"options":
+{"name":"Resolver
+Request","listName":"Request"},"cellsHidden":false}}],"responseCodeFunctions":
+[{"code":0,"msgTitle":"","msgBody":"","type":"normal","functions":[{"request":
+{"url":"empty","method":"get","headers":
+[{"key":"key","value":"value"}],"httpBody":null},"extra":{"commands":
+[{"commandName":"","params":[{"key":"","value":""}]}],"extraInfo":
+[{"key":"","value":""}]},"javascriptConfig":
+{"removeJavascript":true,"loadInWebView":false,"javaScript":"\n try {\n\n /*
+JAVASCRIPT STARTS */ /* JAVASCRIPT ENDS */\n\n } catch (e) {\n
+console.error(e.message);\n\n if (typeof KETSU_
+ASYNC !== 'undefined') {\n
+window.webkit.messageHandlers.EXECUTE_
+KETSU
+_ASYNC.postMessage('');\n }\n\n }
+\n \n "},"moduleCreatorIdZHpppDVoGHtZXQWQpsor":
+{"path":"QUigo","id":"responseCodeFunctions,0,functions,0cell","sectionsHidden":
+[],"options":
+{"name":"Request"},"cellsHidden":false}}],"moduleCreatorIdjXOiFhWVyOhMTQwsClRV":
+{"path":"sEwYw","id":"responseCodeFunctions,0section","sectionsHidden":[],"options":
+{"name":"Function"},"cellsHidden":false},"moduleCreatorIdnAihFIfhbtYjsywrGdjL":
+{"path":"NClSs","id":"responseCodeFunctions,0,section","sectionsHidden":[],"options":
+{"name":"Function
+Parameters","listName":"Parameters"},"cellsHidden":false},"moduleCreatorIdgXMWWerFcono-
+RaKwSGYY":{"path":"PwRMx","id":"responseCodeFunctions,0,cell","sectionsHidden":
+[],"options":
+{"name":"Parameters"},"cellsHidden":false},"moduleCreatorIdUvOTXtiYFJdzbVIRNeLk":
+{"path":"functions","id":"responseCodeFunctions,0,functionssection","sectionsHidden":
+[],"options":{"name":"Function
+Requests","listName":"Request"},"cellsHidden":false}}],"helperFunctions":
+[{"functionName":"example","msgTitle":"","msgBody":"","type":"normal","functions":
+[{"request":{"url":"empty","method":"get","headers":
+[{"key":"key","value":"value"}],"httpBody":null},"extra":{"commands":
+[{"commandName":"","params":[{"key":"","value":""}]}],"extraInfo":
+[{"key":"","value":""}]},"javascriptConfig":
+{"removeJavascript":true,"loadInWebView":false,"javaScript":"\n try {\n\n /*
+JAVASCRIPT STARTS */ /* JAVASCRIPT ENDS */\n\n } catch (e) {\n
+console.error(e.message);\n\n if (typeof KETSU_
+ASYNC !== 'undefined') {\n
+window.webkit.messageHandlers.EXECUTE_
+KETSU
+_ASYNC.postMessage('');\n }\n\n }
+\n \n "},"moduleCreatorIdFrjTgzDvmAXqIYxArgNZ":
+{"path":"lcMhA","id":"helperFunctions,0,functions,0cell","sectionsHidden":[],"options":
+{"name":"Request"},"cellsHidden":false}}],"moduleCreatorIdeeeZuyyZUDpsnQLEhUOy":
+{"path":"iyUYh","id":"helperFunctions,0section","sectionsHidden":[],"options":
+{"name":"Request"},"cellsHidden":false},"moduleCreatorIdhbDnYsZJGjEJoAZdGVSc":
+{"path":"MwACZ","id":"helperFunctions,0,section","sectionsHidden":[],"options":
+{"name":"Function
+Parameters","listName":"Parameters"},"cellsHidden":false},"moduleCreatorIdFjRrxBEsttcp-
+RRnERGYt":{"path":"ozIan","id":"helperFunctions,0,cell","sectionsHidden":[],"options":
+{"name":"Parameters"},"cellsHidden":false},"moduleCreatorIdugOyZWgSkPpoIolQlSPH":
+{"path":"functions","id":"helperFunctions,0,functionssection","sectionsHidden":[],"options":
+{"name":"Function
+Requests","listName":"Request"},"cellsHidden":false}}],"moduleCreatorGlobalOptions":
+{"selected":"moduleCreatorIdbAyjfTFjTFlGMBYkOCoW","notesData":{"openedNotes":
+["oFwjzvDpdfxlaKQrGUwc"],"activeNote":"oFwjzvDpdfxlaKQrGUwc","notes":{}},"hideViews":
+[],"id":"ZMnBVuTGVepYDcy","projectName":"SoaperTV"},"moduleCreatorIdBNYGyFbJlseBS-
+FqdHzlx":{"path":"mainPage","id":"mainPagesection","sectionsHidden":[],"options":
+{"name":"Main
+Page","listName":"Request"},"cellsHidden":false},"moduleCreatorIdPNIamXeBIWBauTskFrML":
+{"path":"search","id":"searchsection","sectionsHidden":[],"options":{"name":"Search
+Page","listName":"Request"},"cellsHidden":false},"moduleCreatorIdRCZPqmMtMvHHSstmH-
+nuG":{"path":"info","id":"infosection","sectionsHidden":[],"options":{"name":"Info
+Page","listName":"Request"},"cellsHidden":false},"moduleCreatorIdOoTyJChjgrwxWJBDVIgM":
+{"path":"chapters","id":"chapterssection","sectionsHidden":[],"options":
+{"name":"Chapters","listName":"Request"},"cellsHidden":false},"moduleCreatorIdJUczQqb-
+SvrStKHoYsWKO":
+{"path":"moduleResolvers","id":"moduleResolverssection","sectionsHidden":[],"options":
+{"name":"Resolvers","listName":"Resolver"},"cellsHidden":false},"moduleCreatorIdad-
+NAAMEAXujDkOECRBSA":
+{"path":"responseCodeFunctions","id":"responseCodeFunctionssection","sectionsHidden":
+[],"options":{"name":"Response Code
+Funtions","listName":"Function"},"cellsHidden":false},"moduleCreatorIdaBvonuRDWVUKQz-
+CApSrj":{"path":"helperFunctions","id":"helperFunctionssection","sectionsHidden":
+[],"options":{"name":"Helper Functions","listName":"Request"},"cellsHidden":false}}
